@@ -1,0 +1,17 @@
+#include "main.c"
+/**
+ * void - Entry point
+ *
+ * Description: prints  print all alphabet in lowercase
+ *
+ *
+*/
+
+void print_alphabet(void)
+{
+	char ch;
+
+	for (ch = 'a'; ch <= z; ch++)
+		_putchar(ch);
+	_putchar("\n");
+}
